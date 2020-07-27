@@ -1,0 +1,8 @@
+Arrays 
+
+Pros - Fast Lookups
+       Fast Push/Pops
+       Ordered
+
+Cons - Slow Inserts
+       Slow Deletes
