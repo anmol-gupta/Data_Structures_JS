@@ -28,4 +28,9 @@ function reverseString(str) {
 
 // ZTM Solution 2
 const reverseString2 = str => str.split("").reverse().join("");
-console.log(reverseString2("Anmol is a good boy"));
+// console.log(reverseString2("Anmol is a good boy"));
+
+//ZTM Solution 3
+
+const reverseString3 = str => [...str].reverse('').join('');
+console.log(reverseString3("Anmol is a good boy"));
